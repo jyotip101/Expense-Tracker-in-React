@@ -1,0 +1,30 @@
+.ie-container{
+    background-color: #fff;
+    box-shadow: $box-shadow;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    &> .ie-container-item{
+        flex: 1;
+        text-align: center;
+    }
+    &> .ie-container-item:first-of-type{
+        border-right: 1px solid #dedede;
+    }
+
+    & .money{
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin: 6px 0;
+    }
+
+    & .plus{
+        color: $font-color;
+    }
+
+    & .minus{
+        color: $main-color;
+    }
+}
