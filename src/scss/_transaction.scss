@@ -40,6 +40,10 @@ input[type='text'], input[type='number']{
     list-style-type: none;
     padding: 0;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     & li{
         background-color: #fff;
@@ -50,6 +54,7 @@ input[type='text'], input[type='number']{
         position: relative;
         padding: 10px;
         margin: 10px 0;
+        width: 30vw;
     }
 }
 
